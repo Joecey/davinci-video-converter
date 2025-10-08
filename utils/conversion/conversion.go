@@ -1,6 +1,7 @@
 package conversion
 
 import (
+	"io"
 	"os"
 	"path/filepath"
 	"strings"
@@ -50,7 +51,7 @@ func Convert (originPath string, targetPath string)(error){
 				"loglevel": "quiet", 
             }).
             OverWriteOutput().
-			WithOutput().
+			WithOutput(io.Discard).  
 			Run()
 
         if err != nil {
