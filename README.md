@@ -8,3 +8,5 @@ So due to stupid licensing laws, on Linux you can't get h264 codec without the s
 - Spend hours of my short life making a converter that uses an ffmpeg command for converting
 
 I chose the 3rd option
+
+I will make this README better at some point i promise, i just wanted to make the tool a bit more presentable. However, if you want to run it now you can just clone this repo and run `./davinci-video-converter` **Make sure you have ffmpeg installed!**
