@@ -1,4 +1,6 @@
-# DaVinci Video Converter
+# VideoLoki
+> A DaVinci Studio Video Converter for Linux
+
 
 ## Context
 So due to stupid licensing laws, on Linux you can't get h264 codec without the studio version of DaVinci Studios. So my three options were...
